@@ -3,4 +3,32 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    line-height: 100%;
+    color: #262f56;
+}
+
+.rating {
+    border: 1px solid #d9eafa;
+    border-radius: 16px;
+}
+
+.rating__header {
+    display: flex;
+    padding: 30px 30px 12px 30px;
+
+    border-bottom: 1px solid #d9eafa;
+}
+
+.rating__heading {
+    flex: auto;
+    margin: 0;
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.rating__options {
+    padding: 8px 16px;
+    border: none;
+    background: none;
 }
