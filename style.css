@@ -287,8 +287,12 @@
     padding-bottom: 4px;
 }
 
-.table__stars:hover {
-    trnsform: translate(0, 5px);
+.table__stars-link {
+    transition: all 0.2s ease-in;
+}
+
+.table__stars-link:hover {
+    transform: translate(0, -5px);
 }
 
 .table__comments-counter {
