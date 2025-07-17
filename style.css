@@ -68,3 +68,30 @@
 
     font-weight: 500;
 }
+
+.table-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 20px 32px;
+}
+
+.table-info__more-button {
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #262f56;
+    text-decoration: none;
+}
+
+.table-info__more-button-icon {
+    margin-left: 4px;
+}
+
+.table-info__about-button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #00c659;
+    text-decoration: underline;
+}
