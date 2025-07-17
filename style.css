@@ -41,6 +41,11 @@
 
     cursor: pointer;
     transform: translate(11px, -4px);
+    transition: all 0.2s ease-in;
+}
+
+.rating__options:hover {
+    transform: translate(11px, -9px);
 }
 
 .table-controls {
@@ -76,6 +81,7 @@
     font-family: inherit;
     font-weight: inherit;
     font-size: 14px;
+    color: inherit;
 
     border: none;
     background: none;
@@ -89,6 +95,10 @@
     border-bottom: 3px solid #00c659;
 
     font-weight: 500;
+}
+
+.table-controls__button:hover {
+    color:;
 }
 
 .table-info {
@@ -109,6 +119,12 @@
 
 .table-info__more-button-icon {
     margin-left: 4px;
+
+    transition: all 0.2s ease-in;
+}
+
+.table-info__more-button:hover > .table-info__more-button-icon {
+    transform: translate(5px, 0);
 }
 
 .table-info__about-button {
@@ -116,6 +132,12 @@
     font-weight: 500;
     color: #00c659;
     text-decoration: underline;
+
+    transition: all 0.2s ease-in;
+}
+
+.table-info__about-button:hover {
+    color: #00da62;
 }
 
 .table__logo {
@@ -184,12 +206,21 @@
 
     border-radius: 6px;
     background-color: #f6f6f6;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #e9e9e9;
 }
 
 .button--primary {
     color: #ffffff;
 
     background-color: #00c659;
+}
+
+.button--primary:hover {
+    background-color: #00da62;
 }
 
 .exclusive-badge {
@@ -254,6 +285,10 @@
 .table__stars {
     margin-right: 4px;
     padding-bottom: 4px;
+}
+
+.table__stars:hover {
+    trnsform: translate(0, 5px);
 }
 
 .table__comments-counter {
