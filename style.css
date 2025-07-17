@@ -18,7 +18,7 @@
 
 .rating__header {
     display: flex;
-    padding: 30px 30px 12px 30px;
+    padding: 45px 30px 20px 30px;
 
     border-bottom: 1px solid #d9eafa;
 }
@@ -32,7 +32,7 @@
 }
 
 .rating__options {
-    padding: 8px 16px;
+    padding: 0px 8px;
     border: none;
     background: none;
 
@@ -40,6 +40,7 @@
     font-weight: inherit;
 
     cursor: pointer;
+    transform: translate(11px, -4px);
 }
 
 .table-controls {
@@ -61,7 +62,7 @@
 .table__row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr auto;
-    padding: 12px 20px;
+    padding: 10px 20px;
 
     border-bottom: 1px solid #d9eafa;
 }
@@ -69,7 +70,7 @@
 .table-controls__button {
     flex: auto;
     flex-grow: 0;
-    padding: 26px 0 22px;
+    padding: 24px 0 22px;
 
     font-family: inherit;
     font-weight: inherit;
@@ -82,7 +83,7 @@
 }
 
 .table-controls__button--active {
-    padding: 26px 0 19px;
+    padding: 24px 0 19px;
 
     border-bottom: 3px solid #00c659;
 
@@ -171,12 +172,13 @@
 }
 
 .button {
-    padding: 14px 24px;
+    padding: 14px 24px 12px;
 
     color: inherit;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 12px;
 
     border-radius: 6px;
     background-color: #f6f6f6;
@@ -194,13 +196,14 @@
     font-size: 12px;
     font-weight: 500;
     color: #b02bc8;
+    line-height: 100%;
 
     background-color: #b02bc81f;
     border-radius: 30px;
 }
 
 .exclusive-badge--top {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .without-deposit-badge {
@@ -209,6 +212,7 @@
     font-size: 12px;
     font-weight: 500;
     color: #00c659;
+    line-height: 100%;
 
     background-color: #00c6591f;
     border-radius: 30px;
@@ -224,6 +228,7 @@
     font-size: 12px;
     font-weight: 500;
     color: #c82b32;
+    line-height: 100%;
 
     background-color: #c82b321f;
     border-radius: 30px;
@@ -232,6 +237,7 @@
 .table__price-block {
     display: flex;
     align-items: center;
+    padding-top: 2px;
 }
 
 .table__price-icon {
@@ -241,4 +247,14 @@
 .table__price {
     font-size: 15px;
     font-weight: 500;
+}
+
+.table__stars {
+    margin-right: 4px;
+    padding-bottom: 4px;
+}
+
+.table__comments-counter {
+    padding-top: 2px;
+    padding-left: 4px;
 }
