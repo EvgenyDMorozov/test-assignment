@@ -1,4 +1,6 @@
 .body {
+    margin: 0;
+
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -8,6 +10,8 @@
 }
 
 .rating {
+    max-width: 809px;
+    margin: 0 auto;
     border: 1px solid #d9eafa;
     border-radius: 16px;
 }
@@ -56,7 +60,7 @@
 
 .table__row {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
     padding: 12px 20px;
 
     border-bottom: 1px solid #d9eafa;
@@ -153,9 +157,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .table__cell--brand {
+    display: flex;
+    align-items: center;
+}
+
+.table__cell--brand-container {
     position: relative;
     display: inline-block;
 }
