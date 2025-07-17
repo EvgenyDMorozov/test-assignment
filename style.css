@@ -299,3 +299,128 @@
     padding-top: 2px;
     padding-left: 4px;
 }
+
+.table__stars-mobile {
+    display: none;
+}
+
+.see-full-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .table__cell--price {
+        padding-right: 0;
+    }
+
+    .rating {
+        margin: 18px;
+    }
+
+    .table__stars {
+        display: none;
+    }
+
+    .table__stars-mobile {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .table__cell--rating {
+        font-size: 12px;
+        flex-direction: column;
+        text-decoration: underline;
+    }
+
+    .exclusive-badge,
+    .without-deposit-badge,
+    .no-bonus-badge {
+        padding: 4px 5px;
+
+        font-size: 8px;
+    }
+
+    .table__price {
+        font-size: 12px;
+    }
+
+    .table__price-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .table__price-icon {
+        margin-bottom: 2px;
+    }
+
+    .table__cell--comments {
+        display: none;
+    }
+
+    .table__logo {
+        max-width: 80px;
+    }
+
+    .table__verified-badge {
+        width: 12px;
+        height: 12px;
+    }
+
+    .table-controls {
+        display: none;
+    }
+
+    .button {
+        padding: 10px 12px 9px;
+
+        font-size: 10px;
+    }
+
+    .table__cell-button:not(:first-child) {
+        margin-left: 4px;
+    }
+
+    .table__row {
+        padding: 4px 12px;
+    }
+
+    .rating__header {
+        padding: 20px 12px 16px;
+    }
+
+    .rating__heading {
+        font-size: 18px;
+    }
+
+    .rating__options {
+        transform: none;
+    }
+
+    .rating {
+        border-radius: 8px;
+    }
+
+    .table-info {
+        display: none;
+    }
+
+    .table__row:last-child {
+        border-bottom: none;
+    }
+
+    .see-full-mobile {
+        display: block;
+        padding: 24px;
+        margin: -8px 16px;
+
+        color: inherit;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 500;
+
+        border-radius: 8px;
+        border: 1px solid #d9eafa;
+    }
+}
