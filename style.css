@@ -46,6 +46,22 @@
     border-bottom: 1px solid #d9eafa;
 }
 
+.table {
+    width: 100%;
+}
+
+.table__body {
+    display: block;
+}
+
+.table__row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 12px 20px;
+
+    border-bottom: 1px solid #d9eafa;
+}
+
 .table-controls__button {
     flex: auto;
     flex-grow: 0;
@@ -94,4 +110,117 @@
     font-weight: 500;
     color: #00c659;
     text-decoration: underline;
+}
+
+.table__logo {
+    max-width: 115px;
+}
+
+.table__verified-badge {
+    position: relative;
+}
+
+.table__cell--rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+}
+
+.table__cell--comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+}
+
+.table__cell--buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.table__cell-button:not(:first-child) {
+    margin-left: 8px;
+}
+
+.table__cell--price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 14px 24px;
+
+    color: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border-radius: 6px;
+    background-color: #f6f6f6;
+}
+
+.button--primary {
+    color: #ffffff;
+
+    background-color: #00c659;
+}
+
+.exclusive-badge {
+    padding: 6px 8px;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: #b02bc8;
+
+    background-color: #b02bc81f;
+    border-radius: 30px;
+}
+
+.exclusive-badge--top {
+    margin-bottom: 4px;
+}
+
+.without-deposit-badge {
+    padding: 6px 8px;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: #00c659;
+
+    background-color: #00c6591f;
+    border-radius: 30px;
+}
+
+.without-deposit-badge--top {
+    margin-bottom: 4px;
+}
+
+.no-bonus-badge {
+    padding: 6px 8px;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: #c82b32;
+
+    background-color: #c82b321f;
+    border-radius: 30px;
+}
+
+.table__price-block {
+    display: flex;
+    align-items: center;
+}
+
+.table__price-icon {
+    margin-right: 4px;
+}
+
+.table__price {
+    font-size: 15px;
+    font-weight: 500;
 }
